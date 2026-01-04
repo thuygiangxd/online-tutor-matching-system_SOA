@@ -1,6 +1,6 @@
 # Online Tutor Matching System
 
-Dự án này là một nền tảng website toàn diện nhằm hiện đại hóa quy trình dạy và học cá nhân hóa tại Việt Nam].
+Dự án này là một nền tảng website toàn diện nhằm hiện đại hóa quy trình dạy và học cá nhân hóa tại Việt Nam.
 Hệ thống giúp tự động hóa việc kết nối giữa học viên và gia sư, mang lại trải nghiệm học tập minh bạch, hiệu quả và có thể theo dõi được tiến độ.
 
 ## Công Nghệ Sử Dụng
@@ -17,7 +17,7 @@ Dự án được xây dựng dựa trên kiến trúc **Microservices** để �
 1. Clone dự án:
    `git clone https://github.com/thuygiangxd/Source-code.git`
 
-**FE**
+### FE
 2. Di chuyển vào thư mục dự án:
    `cd frontend`
 
@@ -29,7 +29,7 @@ Dự án được xây dựng dựa trên kiến trúc **Microservices** để �
 5. Chạy dự án:
    `npm run dev`
 
-**BE**
+### BE
    Git Bash
 6. Di chuyển vào thư mục dự án:
    cd backend
