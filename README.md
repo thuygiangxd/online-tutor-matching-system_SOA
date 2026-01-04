@@ -1,1 +1,1 @@
-# CK-SOA
+Hệ thống kết nối gia sư trực tuyến được triển khai với mục tiêu xây dựng một nền tảng học tập toàn diện, ứng dụng công nghệ để kết nối trực tiếp giữa học sinh và gia sư, phục vụ mọi đối tượng người dùng trên toàn quốc, không phân biệt khu vực địa lý hay điều kiện kinh tế.
