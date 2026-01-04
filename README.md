@@ -29,8 +29,7 @@ Dự án được xây dựng dựa trên kiến trúc **Microservices** để �
 5. Chạy dự án:
    `npm run dev`
 
-### BE
-   Git Bash
+### BE: Git Bash
 6. Di chuyển vào thư mục dự án:
    cd backend
    
