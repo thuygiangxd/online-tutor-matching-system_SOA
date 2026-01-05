@@ -1,37 +1,34 @@
 # Online Tutor Matching System
 
-Dự án này là một nền tảng website toàn diện nhằm hiện đại hóa quy trình dạy và học cá nhân hóa tại Việt Nam.
-Hệ thống giúp tự động hóa việc kết nối giữa học viên và gia sư, mang lại trải nghiệm học tập minh bạch, hiệu quả và có thể theo dõi được tiến độ.
+TutorConnect is a comprehensive online education platform designed to connect students with qualified tutors while supporting an interactive and flexible learning environment. Instead of directly selecting a tutor, students submit a tutoring request form specifying detailed information such as grade level, subject, learning schedule, and expected payment.
 
-## Công Nghệ Sử Dụng
-Dự án được xây dựng dựa trên kiến trúc **Microservices** để đảm bảo tính linh hoạt, dễ mở rộng và bảo trì.
+Tutors can view available class requests, review the provided requirements, and accept suitable requests based on their expertise and availability. Once accepted, tutors can manage assigned classes and participate in the learning process through the platform.
 
-* **Frontend:** React (JSX) kết hợp CSS (Responsive Design) giúp tối ưu trải nghiệm trên mọi thiết bị.
-* **Backend:** Python kết hợp **FastAPI** cung cấp các API REST hiệu suất cao.
-* **Cơ sở dữ liệu:** **Supabase (PostgreSQL)** hỗ trợ lưu trữ dữ liệu quan hệ và truy vấn thời gian thực.
-* **Triển khai:** **Docker** giúp đảm bảo tính nhất quán và ổn định giữa các môi trường.
+The system integrates essential educational functionalities, including user management, course and class management, e-learning support, and secure payment processing. TutorConnect aims to streamline the tutoring workflow, improve transparency between students and tutors, and enhance the overall learning experience for both parties.
 
-## Cách cài đặt và chạy thử
-Để chạy dự án này ở máy cục bộ, bạn làm theo các bước:
+## Tech Stack
+Backend
+Language: Python
+Framework: FastAPI
+Architecture: Microservices
+Database: Supabase
+Components:
+Gateway: localhost:8000 - The main entry point for the API, directing requests to the corresponding microservices.
+Authentication Service: localhost:8001 - Handles authentication, login, and registration.
+User Service: localhost:8002 - Manages user information.
+Academic Service: localhost:8003 - Manages academic matters like courses and tutors.
+Learning Service: localhost:8004 - Supports functions related to the learning process.
+Payment Service: localhost:8005 - Processes payment transactions.
+Frontend
+Language: JavaScript
+Framework: React (using Vite)
+Libraries:
+axios: For sending HTTP requests to the backend.
+react-router-dom: For managing page navigation.
+Interface: A modern user interface built with React components.
+Containerization
+Technology: Docker
+Orchestration: Docker Compose
 
-1. Clone dự án:
-   `git clone https://github.com/thuygiangxd/Source-code.git`
-
-### FE
-2. Di chuyển vào thư mục dự án:
-   `cd frontend`
-
-3. Cài đặt thư viện:
-   `npm install`
-   'npm install react react-dom react-router-dom'
-   'npm install axios'
-   
-5. Chạy dự án:
-   `npm run dev`
-
-### BE: Git Bash
-6. Di chuyển vào thư mục dự án:
-   cd backend
-   
-7. Chạy dự án:
-  ./start_all.sh
+Quickstart
+This project is configured to run seamlessly using Docker and Docker Compose. This is the recommended way to get all services up and running.
